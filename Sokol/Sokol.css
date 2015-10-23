@@ -1,0 +1,82 @@
+html, body, p{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Tahoma;
+}
+
+.header{
+	width: 1200px;
+	height: 115px;
+	margin: 10px;
+	/*background: rgba(0,0,0.1);*/
+	position: relative;
+}
+.right-column{
+	width: 900px;
+	height: 115px;
+	position: absolute;
+	right: 0;
+	/* background: pink; */
+}
+.topline{
+	background: #9b0303;
+	height: 27px;
+	border-radius: 5px;
+	margin: 5px 5px 12px 5px;
+}
+.pfone{
+	margin: 0 20px;
+}
+.find{
+	width: 560px;
+	margin:  0 5px;
+	border-radius: 3px;
+	border: 1px solid #e5e5e5;
+	height: 15px;
+	padding: 3px;
+}
+
+input[type=button]{
+	padding: 3px 45px;
+	border-radius: 3px;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+ul li{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 8px;
+}
+
+.leftcolumn{
+	width: 250px;
+	height: 115px;
+	position: absolute;
+	left: 0;
+	/*background: pink;*/
+
+}
+#logo{
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+
+.ru, .ua{
+	width: 40px;
+	height: 30px;
+	position: absolute;;
+}
+
+.ru{
+	left: 10px;
+	top: 5px;
+}
+
+.ua{
+	left: 55px;
+	top: 5px;
+}
