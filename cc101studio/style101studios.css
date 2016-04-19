@@ -1,0 +1,749 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*---------reset css---------------*/
+body{
+    font-family: "Montserrat";
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #404040;
+    letter-spacing: 1px;
+    background-color: white;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+header
+{
+    background-color: white;
+}
+
+.top{
+    border-bottom: 1px solid #cfcfcf;
+}
+
+
+/* стили для скрытого меню*/
+/* стили для скрытого меню*/
+.icon-menu:before,
+.icon-cart:before{
+    font-size: 25px;
+    color: #000;
+}
+
+
+.icon-menu:before{
+    content: "\e905";
+}
+
+.icon-cart:before{
+    content: "\e904";
+}
+
+#mm-menu-top {
+    padding-top: 10px;
+}
+
+#mm-menu-top a>span{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0 8px 8px 4px;
+}
+
+#mm-menu-top .icon-menu{
+    position: absolute;
+    left: 15px;
+}
+
+#mm-menu-top .icon-cart{
+    position: absolute;
+    right: 15px;
+}
+
+.navbar-default{
+    background: #f5f5f5;
+    border-bottom: 1px solid #949599;
+    font-weight: bold;
+    opacity: 0.85;
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+h1,
+h2,
+h3{
+    color: #949599;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.clients-list h3{
+    font-size: 32px;
+    line-height: 32px;
+}
+
+form h2{
+    text-align: center;
+}
+
+p{
+    margin: 0 0 15px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.top li,
+.footer-menu li{
+    display: inline-block;
+}
+
+
+.social{
+    color: #ababab;
+    margin: 25px 0 0;
+
+}
+
+.icon-facebook,
+.icon-instagram,
+.icon-twitter,
+.icon-tumblr,
+.icon-linkedin2,
+.icon-pinterest2{
+    font-size: 21px;
+    line-height: 42px;
+    background-color: #cfcfcf;
+    border: 8px solid #cfcfcf;
+    color: white;
+    border-radius: 50%;
+    margin: 6px;
+    vertical-align: top;
+}
+
+.soclink li{
+    margin-left: 7px;
+}
+
+
+.town{
+    font-size: 12px;
+    line-height: 42px;
+    padding-left: 25px;
+
+}
+
+
+.top-menu{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.top-menu li{
+    padding: 20px 8px 15px 0;
+    text-align: right;
+}
+
+.top-menu a{
+
+}
+
+.social ul{
+    text-align: right;
+}
+
+a{
+    color: #949599;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.mob-logo {
+    text-align: center;
+}
+
+a:link{
+    color: #949599;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #949599;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active{
+    color: #949599;
+    text-decoration: none;
+}
+
+
+
+.clearfix:after{
+    content: ' ';
+    display: inline-block;
+    overflow: hidden;
+    clear: both;
+}
+
+
+
+/* стили для картинок-меню (большие)*/
+
+.menu-gallery{
+    margin-top: 5px;
+}
+
+.portfolio,
+.services,
+.seo,
+.reviews,
+.packaging,
+.extras,
+.followus{
+    float: left;
+
+}
+
+.followus{
+    margin-left: 15%;
+}
+
+.packaging,
+.portfolio,
+.seo{
+    padding-right: 6px;
+}
+
+.menu-gallery .row{
+    padding-bottom: 5px;
+}
+
+ /* styles for form*/
+
+.getconnect,
+.yourproject,
+.footer-menu{
+    padding: 20px 0;
+}
+
+
+.getconnect{
+    background-color: #949599;
+    margin: 10px 0;
+}
+
+.getconnect p{
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: lighter;
+}
+
+
+.yourproject{
+    background-color: #96a9bc;
+}
+
+
+
+.getconnect h2,
+.yourproject h2,
+.getconnect,
+.yourproject{
+    color: white;
+}
+
+.forsubscription{
+    display: block;
+    padding: 20px 0;
+}
+
+
+label {
+    margin-bottom: 4px;
+    display: block;
+    border-radius: 0;
+}
+
+textarea{
+    border: 1px solid #ccc;
+    padding: 12px 8px 12px 12px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+.for-mame,
+.for-mail,
+.for-tel {
+    float: left;
+    width: 32%;
+}
+
+.for-mail{
+    margin: 0 23px 0 24px;
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+textarea:hover{
+    border: 1px solid #88898a;
+}
+
+/* общий стиль для кнопок*/
+input[type="submit"]{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* лдя кнопки GET CONNECTED.*/
+input[type="submit"]{
+    padding: 10px 0;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+
+/* для кнопки в YOUR PROJECT*/
+button{
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.forsubscription [type="email"]{
+    width: 72%;
+}
+
+.forsubscription [type="submit"]{
+    width: 25%;
+
+}
+
+
+
+
+/*стили для меню footer*/
+
+.footer-menu{
+    text-align: center;
+}
+
+.footer-menu li{
+    padding: 0 5px 0 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+/* стили для карусели-меню*/
+#main-proposition > .carousel-inner > .item > img,
+#main-proposition > .carousel-inner > .item > a > img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+#main-proposition .carousel-indicators li,
+#main-proposition .carousel-indicators .active{
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 3px solid #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#main-proposition .carousel-indicators li{
+    opacity: 0.3;
+}
+
+#main-proposition .carousel-indicators .active{
+    opacity: 0.8;
+}
+
+/* style for page about studio*/
+
+.banner{
+    margin: 0 0 20px;
+}
+
+
+.services_column ul{
+    margin: 0 0 15px;
+}
+
+
+
+.main_info_about_studio h1,
+.about_services h1{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+.services_column h3,
+.about_packaging h3{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+
+.detail h4{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #949599;
+    border-top: 1px solid #949599;
+}
+
+.additional-services{
+    margin-top: 20px;
+}
+
+
+.detail li{
+    list-style-type: circle;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.additional-services img{
+    height: auto;
+    max-width: 100%;
+    padding-right: 50px;
+}
+
+
+.all-review h2{
+    font-size: 30px;
+    margin: 0 0 15px;
+}
+
+.all-review p{
+    padding-top: 20px;
+}
+
+/* для галереи портфолио*/
+
+figure{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: -200px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.1s ease-out 0.5s;
+    transition: all 0.1s ease-out 0.5s;
+}
+
+figure:hover .overlay{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    top: 0px;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure > img{
+    display: block;
+    position: relative;
+}
+
+.overlay p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+
+
+/* медиа запросы*/
+
+@media screen and (min-width: 1200px) {
+
+    .portfolio {
+        height: 407px;
+    }
+
+    .services {
+        height: 406px;
+    }
+
+    .content-wrapper{
+        margin-top: 133px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1199px) {
+
+    .portfolio{
+        height: 324px;
+    }
+    .services{
+        height: 325px;
+    }
+
+    .top-menu{
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+
+
+    .packaging{
+        height: 257px;
+    }
+
+    .extras{
+        height: 258px;
+    }
+
+    .seo{
+        height: 255px;
+    }
+
+    .reviews{
+        height: 255px;
+    }
+
+    .for-mail{
+        margin: 0 18px 0 18px;
+    }
+
+    .forsubscription [type="submit"] {
+        width: 24%;
+    }
+
+    .content-wrapper{
+        margin-top: 168px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+
+    .top-menu{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .top-menu li{
+        padding: 0 8px 15px 0;
+    }
+
+
+    .portfolio{
+        height: 248px;
+    }
+
+    .followus{
+        margin-left: 50px;
+    }
+
+    .services{
+        height: 248px;
+    }
+
+    .for-mail{
+        margin: 0 12px 0 13px;
+    }
+
+    .packaging{
+        height: 195px;
+    }
+
+    .extras{
+        height: 199px;
+    }
+
+    .seo{
+        height: 201px;
+    }
+
+    .reviews{
+        height: 202px;
+    }
+
+    .forsubscription [type="submit"]{
+        width: 23.5%;
+    }
+
+    .content-wrapper{
+        margin-top: 168px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 767px){
+
+    .container{
+        width: 420px;
+    }
+
+
+    .top-menu{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .mob-logo{
+        margin-top: 50px;
+    }
+
+
+    .portfolio,
+    .seo,
+    .packaging{
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .portfolio,
+    .services,
+    .seo,
+    .reviews,
+    .packaging,
+    .extras,
+    .followus{
+        width: 100%;
+        height: auto;
+    }
+
+    .followus{
+        margin-left: 0;
+    }
+
+    .for-mame,
+    .for-mail,
+    .for-tel{
+        float: left;
+        width: 100%;
+    }
+
+    .for-mail{
+        margin: 0;
+    }
+
+    .content-wrapper{
+        margin-top: 0;
+    }
+
+    #page{
+        margin-top: 0;
+    }
+
+
+}
+
+
+
+
