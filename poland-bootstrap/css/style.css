@@ -238,10 +238,11 @@ textarea{
   margin-bottom: 15px;
 }
 
-
-
-
 form textarea {
   height: 120px;
   resize: none;
+}
+
+.contact-list{
+  list-style: none;
 }
