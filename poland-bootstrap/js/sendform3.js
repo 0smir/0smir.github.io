@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$.ajax({
 			url:'https://formspree.io/pupsua@gmail.com',
 			type:'post',
-			data:$('#myForm').serialize(),
+			data:$('#myBottomForm').serialize(),
 			success:function(){
 			}
 		});
