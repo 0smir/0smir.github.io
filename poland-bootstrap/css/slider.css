@@ -43,6 +43,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #f0f0f0;
   max-height: 700px;
   color: #fff;
   padding-bottom: 3rem;
@@ -53,6 +54,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #f0f0f0;
   max-height: 700px;
   color: #fff;
   padding-bottom: 3rem;
@@ -63,6 +65,19 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  max-height: 700px;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+
+#poland_slide1,
+#poland_slide2,
+#poland_slide3{
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
   max-height: 700px;
   color: #fff;
   padding-bottom: 3rem;
