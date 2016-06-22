@@ -7,11 +7,11 @@ $(document).ready(function(){
 			url:'https://formspree.io/o.v.smirnova1987@gmail.com',
 			type:'post',
 			data:$('#myForm').serialize(),
-			success:function(response){
-				$('.result-form').find('span').addClass('succsess');	
+			success: function(data) {
+				$('.result-form').find('span').addClass('success');
 			},
-			error:function(data, status, jqXHR){
-
+			error:  function(xhr, str){
+				alert('Возникла ошибка: ' + xhr.responseCode);
 			}
 		});
 
