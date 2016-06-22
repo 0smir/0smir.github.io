@@ -8,10 +8,9 @@ $(document).ready(function(){
 			type:'post',
 			data:$('#modalForm').serialize(),
 			success:function(){
-				// $('.result-form').empty();
-				$('.result-form').find("p").empty();
-				$(this).append('<span class="success">Данные успешно отправлены!</span>').fadeIn(3000);
-				$(this).find(".success").fadeOut(3000);
+				;
+				$('.result-form').find(".success");
+				$(this).css("display","block");
 			},
 			error: function(){
 

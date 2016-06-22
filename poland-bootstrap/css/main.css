@@ -190,6 +190,7 @@ form textarea {
 
 .success{
     color: #96ddc4;
+    display: none;
 }
 
 /*@media screen and (max-width: 320px){*/
