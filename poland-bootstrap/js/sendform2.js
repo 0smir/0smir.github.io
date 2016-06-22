@@ -8,12 +8,7 @@ $(document).ready(function(){
 			type:'post',
 			data:$('#modalForm').serialize(),
 			success:function(){
-				;
-				$('.result-form').find(".success");
-				$(this).css("display","block");
-			},
-			error: function(){
-
+				
 			}
 		});
 	});
