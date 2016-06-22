@@ -7,7 +7,7 @@ $(document).ready(function(){
 			url:'https://formspree.io/o.v.smirnova1987@gmail.com',
 			type:'post',
 			data:$('#myForm').serialize(),
-			success: function(data) {
+			success: function(data, status, jqXHR) {
 				$('.result-form').find('span').addClass('success');
 			},
 			error:  function(xhr, str){
