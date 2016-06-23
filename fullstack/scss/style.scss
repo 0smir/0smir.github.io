@@ -1,0 +1,331 @@
+
+@import "../bootstrap/css/bootstrap.min";
+@import "core";
+
+
+body,
+#header{
+  font-family: 'Merriweather', serif;
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav li > a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, .5);
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid transparent;
+}
+
+nav li > a:visited,
+.mob-menu li>a:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, .5);
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid transparent;
+}
+
+nav li > a:focus,
+.mob-menu li>a:focus{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid $prime;
+}
+
+nav li > a:hover,
+.mob-menu li>a:hover{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid $prime;
+}
+
+.logo{
+  font-size: 2rem;
+  color: $white;
+}
+
+.logo:hover{
+  font-size: 2rem;
+  text-decoration: none;
+  color: $white;
+}
+
+
+#burger{
+  width: 4rem;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: transparent;
+}
+
+.stick{
+  width: 3rem;
+  margin-bottom: 0.5rem;
+  height: 0.3rem;
+  background-color: rgba(255, 255, 255, .4);
+}
+
+.burger:hover .stick{
+  background-color: rgba(255, 255, 255, .8);
+}
+
+
+nav li{
+  margin-right: 3rem;
+}
+
+
+//.main{
+//  border: 1px solid red;
+//}
+
+.hero-section{
+  background-color: $second;
+  background-image: url("../images/herobg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hero-section .btn:first-of-type{
+  margin: 0 auto 6rem;
+}
+
+.services .btn{
+  margin: 5rem auto 10rem;
+}
+
+
+.hero-section h1{
+  margin: 10rem 0;
+}
+
+
+.design > a,
+.development > a,
+.research > a{
+  height: 16.5rem;
+  width: 16.5rem;
+  margin-bottom: 5rem;
+  background-color: $prime;
+}
+
+.design > a:hover,
+.development > a:hover,
+.research > a:hover{
+  background-color: $third;
+}
+
+.design > a{
+  padding-top: 5.5rem;
+}
+.development > a {
+  padding-top: 6rem;
+}
+.research > a{
+  padding-top: 6rem;
+}
+
+.design > p,
+.development > p,
+.research > p{
+  color: $colorTextLightGray;
+}
+
+
+.work-list >li{
+  margin-bottom: 3rem;
+}
+
+figure{
+  height: 19.8rem;
+  width: 26.2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid $pampas;
+  padding: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+figure > img{
+  height: 18.4rem;
+  max-width: 24.8rem;
+}
+
+figcaption{
+  height: 100%;
+  width: 100%;
+  padding: 2rem 5.5rem 0;
+  border-radius: 3px;
+  background-color: rgba(233, 142, 25, .8);
+  display: none;
+}
+
+figure:hover figcaption{
+  display: block;
+  top: 0;
+  left:0;
+}
+
+footer .main{
+  min-height: 34rem;
+  padding: 10rem 0;
+}
+
+.social p{
+  padding-bottom: 5rem;
+}
+
+
+.social{
+  background-color: $second;
+}
+
+
+.social li{
+  padding: 0;
+}
+
+.social li>a img{
+  opacity: 0.2;
+}
+
+.social li>a:hover img{
+  opacity: 1;
+}
+
+input,
+textarea{
+  width: 100%;
+  max-width: 45.5rem;
+  padding: 6px 10px;
+  margin-bottom: 1.5rem;
+  color: $colorTextDarkGray;
+  background-color: $white;
+  border: 1px solid $silverChalice;
+  border-radius: $radius-min;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+input{
+  min-height: 4.5rem;
+}
+
+textarea{
+  max-height: 19rem;
+}
+
+
+@media screen and (max-width: 320px){
+
+
+  .social ul{
+    max-width: 19rem;
+  }
+
+  .social li {
+    margin: 0 1.5rem 1.5rem;
+  }
+
+  .social li:nth-child(2n){
+    padding: 0;
+    margin-right: 0;
+  }
+
+  #contactForm input[type="submit"]{
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 479px){
+
+
+
+  .social ul{
+    max-width: 19rem;
+  }
+
+  .social li {
+    margin: 0 1.5rem 1.5rem;
+  }
+
+  .social li:nth-child(2n){
+    padding: 0;
+    margin-right: 0;
+  }
+
+  #contactForm input[type="submit"]{
+    margin: 0 auto;
+  }
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+
+  .social ul{
+    max-width: 42rem;
+  }
+
+  .social li {
+    margin: 0 1.5rem 1.5rem;
+  }
+
+  #contactForm input[type="submit"]{
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and(min-width: 768px) and (max-width: 959px){
+
+  .social ul{
+    max-width: 42rem;
+  }
+
+  .social li{
+    margin: 0 1.5rem 0;
+  }
+
+  #contactForm input[type="submit"]{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 960px){
+  .social ul{
+    max-width: 42rem;
+  }
+
+  .social li{
+    margin: 0 1.5rem 0;
+  }
+
+  .social li:last-child{
+    margin-right: 0;
+  }
+}
+
+@media screen  and (min-width: 1200px){
+  .social ul{
+    max-width: 42rem;
+  }
+
+  .social li{
+    margin: 0 1.5rem 0;
+  }
+}
+
