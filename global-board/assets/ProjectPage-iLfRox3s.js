@@ -1,0 +1,1 @@
+import{_ as t,c as a,a as o,t as c,o as r}from"./index-D-P8wJQq.js";const s={props:["id"]};function n(p,i,e,l,_,d){return r(),a("div",null,[o("h1",null,"Project page "+c(e.id),1)])}const u=t(s,[["render",n]]);export{u as default};
