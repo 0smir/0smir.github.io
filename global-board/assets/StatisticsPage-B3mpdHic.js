@@ -1,1 +1,0 @@
-import{_ as e,c as s,a,o}from"./index-DHPhtyqv.js";const c={data(){return{}}},r={class:"container"};function n(i,t,p,_,d,l){return o(),s("div",r,[...t[0]||(t[0]=[a("h2",{class:"title"},"Statistic page",-1)])])}const u=e(c,[["render",n]]);export{u as default};
